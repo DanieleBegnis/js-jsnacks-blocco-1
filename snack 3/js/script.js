@@ -7,5 +7,6 @@ for(let i = 0; i < 6; i++) {
     if(userNumbers % 2 !== 0) {
         numbers.push(userNumbers)
     }
-    console.log(numbers)
+    
 }
+console.log(numbers)
