@@ -4,6 +4,8 @@ let sum = 0;
 //sommo tutti i numeri
 for (let i = 0; i < numbers.length; i++ ) {
     sum += numbers[i];
-    console.log(sum)
+    console.log(sum);
 }
 //calcolo la media, dividendo la somma per 10
+let median = sum/(numbers.length);
+console.log(median);
