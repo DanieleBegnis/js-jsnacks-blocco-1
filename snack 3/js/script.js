@@ -3,5 +3,9 @@ const numbers =[];
 for(let i = 0; i < 6; i++) {
     //chiedo all'utente di inserire sei numeri
     const userNumbers = parseInt(prompt('dammi un numero'))
-    console.log(userNumbers)
+    //se i numeri sono dispari li metto nell'array
+    if(!userNumbers % 2 === 0) {
+        numbers.push(userNumbers)
+    }
+    console.log(numbers)
 }
